@@ -7,7 +7,7 @@ import speech_recognition as sr
 import pyttsx3 as p
 speaker = p.init()
 
-
+//Module 
 class Module:
     def __init__(self, mode=False, model=1, upBody=False, smooth=True,
                  detectionCon=0.5, trackCon=0.5):
